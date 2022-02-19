@@ -19,7 +19,7 @@ for /F "delims=" %%i in (results.txt) do (
 goto done
 
 :done
-echo Done, made by p1forso!
+echo Done, made by bilbodog!
 pause
 exit
 

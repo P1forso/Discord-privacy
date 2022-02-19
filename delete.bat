@@ -3,12 +3,12 @@ color 0A
 title P1forso Discord Privacy fucker
 set /a x=0
 
-echo Lokerer filer
+echo doing stuff
 
 
 
 del %USERPROFILE%\AppData\Roaming\discord\Cache\
-echo færdig
+echo Done
 :done
 echo Done, made by P1forso!
 pause
