@@ -1,6 +1,6 @@
 @echo off
 color 0A
-title P1forso Discord Privacy fucker
+title P1forso Discord Privacy deletion
 set /a x=0
 
 echo doing stuff
@@ -10,6 +10,7 @@ echo doing stuff
 del %USERPROFILE%\AppData\Roaming\discord\Cache\
 echo Done
 :done
-echo Done, made by P1forso!
+echo Done
+echo Made by P1forso
 pause
 exit
