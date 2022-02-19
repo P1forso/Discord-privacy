@@ -1,14 +1,14 @@
 @echo off
 color 0A
-title P1forso
+title Discord Privacy
 set /a x=0
 
 echo Copying...
-xcopy %USERPROFILE%\AppData\Roaming\discord\Cache %cd%\p1forso /Y /Q /I
+xcopy %USERPROFILE%\AppData\Roaming\discord\Cache %cd%\img /Y /Q /I
 echo Done copying!
 
 echo Making structure...
-dir p1forso\* /b > results.txt
+dir img\* /b > results.txt
 echo Structure done!
 
 echo Converting images...
@@ -27,7 +27,7 @@ exit
 set /a x+=1
 for /f "tokens=1,2 delims=^^" %%a in ("%Z%") do (
   echo [%x%] %Z% -^> %Z%.png
-  ren p1forso\%Z% %Z%.png
+  ren img\%Z% %Z%.png
 )
 goto :EOF
 
